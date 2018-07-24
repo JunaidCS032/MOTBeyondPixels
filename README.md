@@ -6,6 +6,7 @@ This repository contains code and data required to reproduce the results in the 
 ### Sarthak Sharma, Junaid Ahmed Ansari, J. Krishna Murthy, and K. Madhava Krishna
 
 ### [Project Page](https://junaidcs032.github.io/Geometry_ObjectShape_MOT/)
+> The project page has more qualitative results, and links to data.
 
 If you find the code/data useful in your experiments, kindly consider citing
 
