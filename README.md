@@ -26,17 +26,18 @@ We provide demo scripts for running code and visualizing results on sequences fr
 To run a demo script that shows representative results on short snippets from the train and test splits run
 
 ```
-scriptname_goes_here
+main_script_train.m
+main_script_test.m
 ```
 
 Before you can run this, however, make sure you download the requisite CNN appearance features and rectified images by running the following script
 ```
-sh shell_script.sh
+sh download_data.sh
 ```
 
 ## Using our result files
 
-To falcilitate comparision, we have also released our results on the KITTI Tracking benchmark (train and test splits). The result files, in the format specified by the evaluation server, can be downloaded from [here](http://link.goes.here.com)
+To falcilitate comparision, we have also released our results on the KITTI Tracking benchmark (train and test splits). The result files, in the format specified by the evaluation server, can be downloaded from [here](https://drive.google.com/open?id=0B-9NOTtQ3zTQUTJORXlyTEZzR0M4UG1jUmRvS2ZCcE5ZUFI0)
 
 > DISCLAIMER: The result files have been released *in good faith*, to facilitate reproducibility.
 > No misuse is permitted.
