@@ -1,13 +1,9 @@
 % Multi-Object tracking code for our ICRA paper: 
 % "Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking" 
 % 
-% Authors: Junaid Ahmed Ansari, Sarthak Sharma @ Robotics Research Center, IIIT Hyderabad
+% Authors: Junaid Ahmed Ansari @ Robotics Research Center, IIIT Hyderabad
 % Email  : junaid.ansari@reseatch.iiit.ac.in,
-%          sarthak.sharma@research.iiit.ac.in
 %
-% Other open source codes used: 
-%      "munkres.m"  by Yi Cao; see the file for more info.                   
-%      "distinguishable_colors.m" by Timothy E. Holy" see file for info
 %
 % Note: Apart from the paths, this script is the same as main_scrip_train.m
 
