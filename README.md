@@ -4,6 +4,7 @@ This repository contains code and data required to reproduce the results in the 
 
 ## Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking
 ### Sarthak Sharma, Junaid Ahmed Ansari, J. Krishna Murthy, and K. Madhava Krishna
+> The first two authors contributed equally to the work.
 
 ### [Project Page](https://junaidcs032.github.io/Geometry_ObjectShape_MOT/)
 > The project page has more qualitative results, and links to data.
