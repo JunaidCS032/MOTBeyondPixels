@@ -34,6 +34,7 @@ Before you can run this, however, make sure you download the requisite CNN appea
 ```
 sh download_data.sh
 ```
+Or you can download it from [here](https://drive.google.com/open?id=1BQrLvvCV3tomtBSdVE_orJxQOhHxcinG) and place it (after unzipping it) in the parent directory.
 
 ## Using our result files
 
