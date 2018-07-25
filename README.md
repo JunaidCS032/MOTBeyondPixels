@@ -1,5 +1,7 @@
 # MOTBeyondPixels
 
+![Example image](example_image.png)
+
 This repository contains code and data required to reproduce the results in the ICRA 2018 paper
 
 ## Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking
