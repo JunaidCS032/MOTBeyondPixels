@@ -4,7 +4,7 @@ This repository contains code and data required to reproduce the results in the 
 
 ## Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking
 ### Sarthak Sharma<sup>\*</sup>, Junaid Ahmed Ansari<sup>\*</sup>, [J. Krishna Murthy](https://krrish94.github.io), and [K. Madhava Krishna](http://robotics.iiit.ac.in)
-> <sup>\*</sup The first two authors contributed equally to the work.
+> <sup>\*</sup> The first two authors contributed equally to the work.
 
 ### [Project Page](https://junaidcs032.github.io/Geometry_ObjectShape_MOT/)
 > The project page has more qualitative results, and links to data.
@@ -15,7 +15,7 @@ If you find the code/data useful in your experiments, kindly consider citing
 @inproceedings{BeyondPixels_ICRA2018,
   title={Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking},
   author={Sarthak Sharma, Junaid Ahmed Ansari, J. Krishna Murthy, K. Madhava Krishna},
-  booktitle = {Proceedings of the IEEE Conference on Robotics and Automation (In Press)},
+  booktitle = {Procedings of the IEEE International Conference on Robotics and Automation},
   year={2018}
 }
 ```
@@ -31,8 +31,11 @@ To run a demo script that shows representative results on short snippets from th
 main_script_train.m
 main_script_test.m
 ```
+> IMPORTANT: You need to have the `Data` folder initialized, before you can run this demo.
+> See below for details.
 
-Before you can run this, however, make sure you download the requisite CNN appearance features and rectified images by running the following script
+
+Before you can run this, however, make sure you download the requisite CNN appearance features and rectified images by running the following script.
 ```
 sh download_data.sh
 ```
@@ -47,6 +50,6 @@ To falcilitate comparision, we have also released our results on the KITTI Track
 
 ## Misc. Remarks
 
-We release release object detections obtained (and filtering scripts for non-maxima suppression, along with parameters used) for all train and test sequences. We report results obtained by running [RRC-Net](https://arxiv.org/abs/1704.05776) \[[code](https://github.com/xiaohaoChen/rrc_detection)\] on KITTI Tracking data. They can be accessed in the `DATA` directory.
+We release release object detections obtained (and filtering scripts for non-maxima suppression, along with parameters used) for all train and test sequences. We report results obtained by running [RRC-Net](https://arxiv.org/abs/1704.05776) \[[code](https://github.com/xiaohaoChen/rrc_detection)\] on KITTI Tracking data. They can be accessed in the `Data` directory.
 
-We also release odometry estimates obtained from ORB-SLAM. Note that, since we used monocular ORB-SLAM, odometry estimates were obtained *to-scale*. To get rid of the scale factor ambiguity, we empirically estimate a scale factor by four-fold cross-validation over the train set. Once this scale factor is estimated, we use the same factor across all train and test sequences in the results reported. These can be found in the `DATA` directory too.
+We also release odometry estimates obtained from ORB-SLAM. Note that, since we used monocular ORB-SLAM, odometry estimates were obtained *to-scale*. To get rid of the scale factor ambiguity, we empirically estimate a scale factor by four-fold cross-validation over the train set. Once this scale factor is estimated, we use the same factor across all train and test sequences in the results reported. These can be found in the `Data` directory too.
