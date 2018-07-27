@@ -9,7 +9,7 @@
 % Email : junaid.ansari@reseatch.iiit.ac.in
 
 
-addpath('../Third_party');
+addpath('../third_party');
 
 warning('off','all')
 clear ;
@@ -311,7 +311,7 @@ for ww = 1:size(all_wts,1)
         end        
         
         % save the results to file
-        dlmwrite(sprintf('../Result_for_evaluation/train/%04d.txt', seqNo ),result_for_kitti_eval,' ');
+        dlmwrite(sprintf('../results/train/%04d.txt', seqNo ),result_for_kitti_eval,' ');
                 
     end
     

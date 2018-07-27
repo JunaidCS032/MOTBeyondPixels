@@ -9,7 +9,7 @@
 
 warning('off','all')
 clear ;
-addpath('../Third_party');
+addpath('../third_party');
          % 33  32  22  vp
 all_wts = [0.6 0.4 0.2 0.0];
        
@@ -311,7 +311,7 @@ for ww = 1:size(all_wts,1)
         
         % save the results to file
         
-        dlmwrite(sprintf('../Result_for_evaluation/test/%04d.txt', seqNo ),result_for_kitti_eval,' ');                       
+        dlmwrite(sprintf('../results/test/%04d.txt', seqNo ),result_for_kitti_eval,' ');                       
         
     end    
     
