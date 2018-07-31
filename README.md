@@ -47,7 +47,7 @@ Or you can download it from [here](https://drive.google.com/open?id=1ZR1qEf2qjQY
 
 To falcilitate comparision, we have also released our results on the KITTI Tracking benchmark (train and test splits). The result files, in the format specified by the evaluation server, can be downloaded from [here](https://drive.google.com/open?id=0B-9NOTtQ3zTQUTJORXlyTEZzR0M4UG1jUmRvS2ZCcE5ZUFI0)
 
-> DISCLAIMER: The result files have been released *in good faith*, in the spirit of reproducibile research.
+> DISCLAIMER: The result files have been released *in good faith*, in the spirit of reproducible research.
 > No misuse is permitted.
 
 ## Misc. Remarks
