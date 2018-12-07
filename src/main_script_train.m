@@ -6,7 +6,7 @@
 %      "distinguishable_colors.m" by Timothy E. Holy" see file for info
 %
 % Author: Junaid Ahmed Ansari @ Robotics Research Center, IIIT Hyderabad
-% Email : junaid.ansari@reseatch.iiit.ac.in
+% Email : junaid.ansari@research.iiit.ac.in
 
 
 addpath('../third_party');
