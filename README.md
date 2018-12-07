@@ -4,7 +4,7 @@
 
 This repository contains code and data required to reproduce the results in the ICRA 2018 paper
 
-## Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking [Paper(arXiv)](https://arxiv.org/abs/1802.09298)
+## Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking [(arXiv)](https://arxiv.org/abs/1802.09298)
 ### Sarthak Sharma<sup>\*</sup>, [Junaid Ahmed Ansari](https://scholar.google.co.in/citations?user=Uc8mKqMAAAAJ&hl=en)<sup>\*</sup>, [J. Krishna Murthy](https://krrish94.github.io), and [K. Madhava Krishna](http://robotics.iiit.ac.in)
 > <sup>\*</sup> The first two authors contributed equally to the work.
 
