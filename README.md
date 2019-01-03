@@ -10,6 +10,7 @@ This repository contains code and data required to reproduce the results in the 
 
 ### [Project Page](https://junaidcs032.github.io/Geometry_ObjectShape_MOT/)
 > The project page has more qualitative results, and links to data.
+> [AutoWare](https://autware.ai)-world's first "all-in-one" open-source software for self-driving vehicles, has implemented our work in ROS. (Link- https://github.com/CPFL/Autoware/tree/master/ros/src/computing/perception/detection/vision_tracker/packages/vision_beyond_track)
 
 If you find the code/data useful in your experiments, kindly consider citing
 
@@ -55,3 +56,7 @@ To falcilitate comparision, we have also released our results on the KITTI Track
 We release release object detections obtained (and filtering scripts for non-maxima suppression, along with parameters used) for all train and test sequences. We report results obtained by running [RRC-Net](https://arxiv.org/abs/1704.05776) \[[code](https://github.com/xiaohaoChen/rrc_detection)\] on KITTI Tracking data. They can be accessed in the `Data` directory.
 
 We also release odometry estimates obtained from ORB-SLAM. Note that, since we used monocular ORB-SLAM, odometry estimates were obtained *to-scale*. To get rid of the scale factor ambiguity, we empirically estimate a scale factor by four-fold cross-validation over the train set. Once this scale factor is estimated, we use the same factor across all train and test sequences in the results reported. These can be found in the `Data` directory too.
+
+## Autonomous Software stacks using our method
+
+[AutoWare](https://autware.ai)-world's first "all-in-one" open-source software for self-driving vehicles, has implemented our work in ROS. (Link- https://github.com/CPFL/Autoware/tree/master/ros/src/computing/perception/detection/vision_tracker/packages/vision_beyond_track)
