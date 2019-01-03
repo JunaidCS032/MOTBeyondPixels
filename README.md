@@ -58,4 +58,4 @@ We also release odometry estimates obtained from ORB-SLAM. Note that, since we u
 
 ## Autonomous driving Software stacks using our method
 
-[AutoWare's](https://autware.ai)(world's first "all-in-one" open-source software for self-driving vehicles) image tracker is based on our work. (Link- https://github.com/CPFL/Autoware/tree/master/ros/src/computing/perception/detection/vision_tracker/packages/vision_beyond_track)
+[AutoWare's](https://autware.ai)(world's first "all-in-one" open-source software for self-driving vehicles) image based object tracker is based on our work. (Link- https://github.com/CPFL/Autoware/tree/master/ros/src/computing/perception/detection/vision_tracker/packages/vision_beyond_track)
