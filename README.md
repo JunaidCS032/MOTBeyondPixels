@@ -56,6 +56,6 @@ We release release object detections obtained (and filtering scripts for non-max
 
 We also release odometry estimates obtained from ORB-SLAM. Note that, since we used monocular ORB-SLAM, odometry estimates were obtained *to-scale*. To get rid of the scale factor ambiguity, we empirically estimate a scale factor by four-fold cross-validation over the train set. Once this scale factor is estimated, we use the same factor across all train and test sequences in the results reported. These can be found in the `Data` directory too.
 
-## Autonomous driving Software stacks using our method
+## Autonomous driving software stacks using our method
 
 [AutoWare's](https://autware.ai)(world's first "all-in-one" open-source software for self-driving vehicles) image based object tracker is based on our work. (Link- https://github.com/CPFL/Autoware/tree/master/ros/src/computing/perception/detection/vision_tracker/packages/vision_beyond_track)
