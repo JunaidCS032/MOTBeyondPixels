@@ -1,3 +1,5 @@
+% Author: Junaid Ahmed Ansari @ Robotics Research Center, IIIT Hyderabad
+% Email : junaid.ansari@research.iiit.ac.in
 function generateCandidateFor2D2Dmatching(scoreMat_3D2D, thres, fpath, fno, detectionsQ, detectionsT)
     
     fname = sprintf('%s%06d.txt',fpath,fno);

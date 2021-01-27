@@ -1,3 +1,6 @@
+% Generate score matrix for the 2D-2D cue
+% Author: Junaid Ahmed Ansari @ Robotics Research Center, IIIT Hyderabad
+% Email : junaid.ansari@research.iiit.ac.in
 function [scoreMatrix_2D2D] = generate2D2DScoreMatrix(featureQ, featureT)
     
     scoreMatrix_2D2D = zeros(size(featureQ,1), size(featureT,1));

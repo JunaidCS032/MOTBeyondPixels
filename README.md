@@ -4,8 +4,8 @@
 
 This repository contains code and data required to reproduce the results in the ICRA 2018 paper
 
-## Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking
-### Sarthak Sharma<sup>\*</sup>, [Junaid Ahmed Ansari](https://scholar.google.co.in/citations?user=Uc8mKqMAAAAJ&hl=en)<sup>\*</sup>, [J. Krishna Murthy](https://krrish94.github.io), and [K. Madhava Krishna](http://robotics.iiit.ac.in)
+## Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking [(arXiv)](https://arxiv.org/abs/1802.09298)
+### Sarthak Sharma <sup>\*</sup>, [Junaid Ahmed Ansari](https://scholar.google.co.in/citations?user=Uc8mKqMAAAAJ&hl=en)<sup>\*</sup>, [J. Krishna Murthy](https://krrish94.github.io), and [K. Madhava Krishna](http://robotics.iiit.ac.in)
 > <sup>\*</sup> The first two authors contributed equally to the work.
 
 ### [Project Page](https://junaidcs032.github.io/Geometry_ObjectShape_MOT/)
@@ -55,3 +55,8 @@ To falcilitate comparision, we have also released our results on the KITTI Track
 We release release object detections obtained (and filtering scripts for non-maxima suppression, along with parameters used) for all train and test sequences. We report results obtained by running [RRC-Net](https://arxiv.org/abs/1704.05776) \[[code](https://github.com/xiaohaoChen/rrc_detection)\] on KITTI Tracking data. They can be accessed in the `Data` directory.
 
 We also release odometry estimates obtained from ORB-SLAM. Note that, since we used monocular ORB-SLAM, odometry estimates were obtained *to-scale*. To get rid of the scale factor ambiguity, we empirically estimate a scale factor by four-fold cross-validation over the train set. Once this scale factor is estimated, we use the same factor across all train and test sequences in the results reported. These can be found in the `Data` directory too.
+
+## Autonomous driving software stacks using our method
+
+
+[AutoWare's](https://autoware.ai) (one of the first "all-in-one" open-source software for self-driving vehicles) implements an image based object tracker is based on our work. [Link](https://gitlab.com/autowarefoundation/autoware.ai/core_perception/-/tree/master/vision_beyond_track)

@@ -2,7 +2,7 @@
 % "Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking" 
 % 
 % Authors: Junaid Ahmed Ansari @ Robotics Research Center, IIIT Hyderabad
-% Email  : junaid.ansari@reseatch.iiit.ac.in,
+% Email  : junaid.ansari@research.iiit.ac.in,
 %
 %
 % Note: Apart from the paths, this script is the same as main_scrip_train.m
